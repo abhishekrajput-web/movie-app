@@ -1,7 +1,5 @@
 import React, { useContext, useEffect, useState }  from "react";
 const AppContext = React.createContext();
-const MOVIE_KEY= import.meta.env.VITE_MOVIE_API_KEY;
-
 export const API_KEY = `https://www.omdbapi.com/?apikey=${MOVIE_KEY}&`;
 
 const AppProvider = ({children}) => {
